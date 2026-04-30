@@ -10,6 +10,7 @@
 - [x] Day 5: SQL Injection Second Order Part 2
 - [x] Day 6: SQL Injection First-Order Part 1
 - [x] Day 7: SQL Injection First-Order Part 2
+- [x] Day 8: XSS (Cross-Site Scripting)
 - [ ] ...
 
 ## Notes
@@ -20,6 +21,7 @@
 - [Day 5 — SQL Injection Second Order Part 2](notes/Day_5_Second_Order_SQLi_Change_Password.md)
 - [Day 6 — SQL Injection First-Order Part 1](notes/Day_6_Book_Title_SQLi.md)
 - [Day 7 — SQL Injection First-Order Part 2](notes/Day_7_Book_Title_2_SQLi.md)
+- [Day 8 — XSS (Cross-Site Scripting)](notes/Day_8_XSS.md)
 - [Day  —]
 
 # owasp-cheatsheet
