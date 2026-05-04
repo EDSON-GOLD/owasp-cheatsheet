@@ -11,6 +11,7 @@
 - [x] Day 6: SQL Injection First-Order Part 1
 - [x] Day 7: SQL Injection First-Order Part 2
 - [x] Day 8: XSS (Cross-Site Scripting)
+- [x] Day 9: CSRF (Cross-Site Request Forgery)
 - [ ] ...
 
 ## Notes
@@ -22,6 +23,7 @@
 - [Day 6 — SQL Injection First-Order Part 1](notes/Day_6_Book_Title_SQLi.md)
 - [Day 7 — SQL Injection First-Order Part 2](notes/Day_7_Book_Title_2_SQLi.md)
 - [Day 8 — XSS (Cross-Site Scripting)](notes/Day_8_XSS.md)
+- [Day 8 — CSRF (Cross-Site Request Forgery)](notes/Day_9_CSRF.md)
 - [Day  —]
 
 # owasp-cheatsheet
