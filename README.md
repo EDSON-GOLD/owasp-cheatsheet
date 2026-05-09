@@ -13,6 +13,7 @@
 - [x] Day 8: XSS (Cross-Site Scripting)
 - [x] Day 9: CSRF (Cross-Site Request Forgery)
 - [x] Day 10: Broken Authentication
+- [x] Day 11: IDOR (Insecure Direct Object Reference)
 - [ ] ...
 
 ## Notes
@@ -26,6 +27,7 @@
 - [Day 8 — XSS (Cross-Site Scripting)](notes/Day_8_XSS.md)
 - [Day 9 — CSRF (Cross-Site Request Forgery)](notes/Day_9_CSRF.md)
 - [Day 10 — Broken Authentication](notes/Day_10_Broken_Auth.md)
+- [Day 11 — IDOR (Insecure Direct Object Reference)](notes/Day_11_IDOR.md)
 - [Day  —]
 
 # owasp-cheatsheet
